@@ -5,8 +5,10 @@
     padding: 15px 0;
     background-color: #fafafa;
     color: #494949;
+    font-size: 18px;
     font-weight: 500;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 #friends-display-link i {
