@@ -1,17 +1,27 @@
 .screen-header {
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--horizontal-space);
-    margin-bottom: 10px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 10px;
 }
 
 .screen_header__title {
-    font-size: 25px;
-    font-weight: 700;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .screen_header__icons span {
-    margin-left: 10px;
+  margin-left: 10px;
+}
+
+.screen_header__icons span:last-child {
+  position: relative;
+}
+
+.screen_header__icons span:last-child span {
+  position: absolute;
+  bottom: 22px;
+  left: 12px;
 }
