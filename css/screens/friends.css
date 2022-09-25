@@ -7,7 +7,7 @@
   color: #494949;
   font-size: 18px;
   font-weight: 500;
-  margin-top: -10px;
+  margin-top: -30px;
   margin-bottom: 20px;
 }
 
@@ -18,7 +18,7 @@
 
 .friends-screen__channel {
   margin-top: 30px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 .friends-screen__channel-header {
@@ -26,5 +26,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--textcolor-gray);
 }
